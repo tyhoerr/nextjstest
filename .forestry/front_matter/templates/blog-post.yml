@@ -7,5 +7,17 @@ fields:
   config:
     required: false
   label: Test
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: toggle
+  type: boolean
+  label: Toggle
 pages:
 - pages/test.md
